@@ -3,7 +3,7 @@
  import Home from "./pages/Home";
  import ErrorPage from "./pages/Errorpages";
  import Navbar from "./commponents/Navbar";
-  import Footer from "./commponents/footer";
+  import Footer from "./commponents/Footer";
   import SingleProductPage from "./pages/SingleProductPage";
 
 import axios from "axios"; 
