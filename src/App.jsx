@@ -39,15 +39,14 @@ import CartPage from "./pages/CartPage";
     fetchproducts();
   }, []);
 
-  if(loading){
-    return 
-    (
-      <div className="flex justify-center items-center h-screen">
-        <Loader />
-      </div>
-    );
-    
-  }
+  
+if(loading){
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <Loader />
+    </div>
+  );
+}
 
   
 
